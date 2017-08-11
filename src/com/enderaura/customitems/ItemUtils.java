@@ -40,6 +40,19 @@ public class ItemUtils {
         return item;
     }
 
+    public ItemStack createItem(Material mat, int amount, String name, String... lore){
+        ItemStack item = new ItemStack(mat, amount);
+        ItemMeta meta = item.getItemMeta();
+        List<String> loreList = new ArrayList<>();
+        for(String str : lore) {
+            loreList.add(ChatColor.translateAlternateColorCodes('&', str));
+        }
+        meta.setLore(loreList);
+        meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', name));
+        item.setItemMeta(meta);
+        return item;
+    }
+
     public ItemStack createItem(Material mat, int amount, short data, String displayName, String... lore) {
         ItemStack item = new ItemStack(mat, amount, data);
         ItemMeta meta = item.getItemMeta();
