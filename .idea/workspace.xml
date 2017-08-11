@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ac97775-22f5-4c65-9e65-4ca46a24bf31" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/enderaura/customitems/ItemGetters.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/enderaura/customitems/ItemGettersAndSetters.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/enderaura/customitems/ItemUtils.java" afterPath="$PROJECT_DIR$/src/com/enderaura/customitems/ItemUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/enderaura/customitems/ItemGetters.java" afterPath="$PROJECT_DIR$/src/com/enderaura/customitems/ItemGetters.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,14 +18,30 @@
       <file leaf-file-name="ItemGetters.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/enderaura/customitems/ItemGetters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="680">
+              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#2003#2004#0" expanded="true" />
+                <element signature="e#2040#2041#0" expanded="true" />
+                <element signature="e#2156#2157#0" expanded="true" />
+                <element signature="e#2190#2191#0" expanded="true" />
+                <element signature="e#2292#2293#0" expanded="true" />
+                <element signature="e#2322#2323#0" expanded="true" />
+                <element signature="e#2418#2419#0" expanded="true" />
+                <element signature="e#2446#2447#0" expanded="true" />
+                <element signature="e#2561#2562#0" expanded="true" />
+                <element signature="e#2594#2595#0" expanded="true" />
+                <element signature="e#2710#2711#0" expanded="true" />
+                <element signature="e#2744#2745#0" expanded="true" />
+                <element signature="e#2866#2867#0" expanded="true" />
+                <element signature="e#2902#2903#0" expanded="true" />
+                <element signature="e#3018#3019#0" expanded="true" />
+                <element signature="e#3052#3053#0" expanded="true" />
+                <element signature="e#3171#3172#0" expanded="true" />
+                <element signature="e#3206#3207#0" expanded="true" />
+                <element signature="e#3328#3329#0" expanded="true" />
+                <element signature="e#3364#3365#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,8 +98,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1608" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1630" />
+    <option name="y" value="500" />
     <option name="width" value="1616" />
     <option name="height" value="1212" />
   </component>
@@ -245,7 +259,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502467632458</updated>
-      <workItem from="1502467636640" duration="881000" />
+      <workItem from="1502467636640" duration="2356000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed ItemUtils">
       <created>1502468131415</created>
@@ -254,11 +268,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502468131415</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Made Some Stuff.">
+      <created>1502468547161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1502468547161</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="881000" />
+    <option name="totallyTimeSpent" value="2356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="-8" width="1616" height="1216" extended-state="6" />
@@ -300,7 +321,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed ItemUtils" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed ItemUtils" />
+    <MESSAGE value="Made Some Stuff." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made Some Stuff." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -325,14 +347,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/enderaura/customitems/ItemGetters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="680">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2292#2293#0" expanded="true" />
+            <element signature="e#2322#2323#0" expanded="true" />
+            <element signature="e#2418#2419#0" expanded="true" />
+            <element signature="e#2446#2447#0" expanded="true" />
+            <element signature="e#2561#2562#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
+            <element signature="e#2744#2745#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2902#2903#0" expanded="true" />
+            <element signature="e#3018#3019#0" expanded="true" />
+            <element signature="e#3052#3053#0" expanded="true" />
+            <element signature="e#3171#3172#0" expanded="true" />
+            <element signature="e#3206#3207#0" expanded="true" />
+            <element signature="e#3328#3329#0" expanded="true" />
+            <element signature="e#3364#3365#0" expanded="true" />
           </folding>
         </state>
       </provider>
