@@ -1,5 +1,6 @@
 package com.enderaura.customitems;
 
+import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -34,7 +35,7 @@ public class ItemUtils {
     public ItemStack createItem(Material mat, int amount, short data, String displayName) {
         ItemStack item = new ItemStack(mat, amount, data);
         ItemMeta meta = item.getItemMeta();
-        meta.setDisplayName(Utils.color(displayName));
+        meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', displayName));
         item.setItemMeta(meta);
         return item;
     }
@@ -44,10 +45,10 @@ public class ItemUtils {
         ItemMeta meta = item.getItemMeta();
         List<String> loreList = new ArrayList<>();
         for(String str : lore) {
-            loreList.add(Utils.color(str));
+            loreList.add(ChatColor.translateAlternateColorCodes('&', str));
         }
         meta.setLore(loreList);
-        meta.setDisplayName(Utils.color(displayName));
+        meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', displayName));
         item.setItemMeta(meta);
         return item;
     }
@@ -56,7 +57,7 @@ public class ItemUtils {
         ItemStack item = new ItemStack(mat, amount, data);
         ItemMeta meta = item.getItemMeta();
         meta.setLore(lore);
-        meta.setDisplayName(Utils.color(displayName));
+        meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', displayName));
         item.setItemMeta(meta);
         return item;
     }
@@ -65,7 +66,7 @@ public class ItemUtils {
         List<String> lorelist = null;
         lorelist = (item.hasItemMeta() && item.getItemMeta().hasLore()) ? item.getItemMeta().getLore() : new ArrayList<>();
         for(String str : lore) {
-            lorelist.add(Utils.color(str));
+            lorelist.add(ChatColor.translateAlternateColorCodes('&', str));
         }
         ItemMeta meta = item.getItemMeta();
         meta.setLore(lorelist);
