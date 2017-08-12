@@ -2,10 +2,12 @@ package com.enderaura.customitems;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -46,6 +48,22 @@ public class ItemUtils {
         List<String> loreList = new ArrayList<>();
         for(String str : lore) {
             loreList.add(ChatColor.translateAlternateColorCodes('&', str));
+        }
+        meta.setLore(loreList);
+        meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', name));
+        item.setItemMeta(meta);
+        return item;
+    }
+
+    public ItemStack createItem(Material mat, int amount, HashMap<Enchantment, Integer> enchants, String name, String... lore){
+        ItemStack item = new ItemStack(mat, amount);
+        ItemMeta meta = item.getItemMeta();
+        List<String> loreList = new ArrayList<>();
+        for(String str : lore) {
+            loreList.add(ChatColor.translateAlternateColorCodes('&', str));
+        }
+        for(Enchantment enchant : enchants.keySet()){
+            meta.addEnchant(enchant, enchants.get(enchant), true);
         }
         meta.setLore(loreList);
         meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', name));
